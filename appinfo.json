@@ -20,8 +20,13 @@
     "media": [
       {
         "type": "font",
-        "name": "FONT_OLD_TYPER_28",
-        "file": "fonts/old-typer.ttf"
+        "name": "FONT_OPEN_SANS_BOLD_36",
+        "file": "fonts/open-sans-bold-cyrillic-subset.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_OPEN_SANS_REGULAR_32",
+        "file": "fonts/open-sans-regular-cyrillic-subset.ttf"
       }
     ]
   }

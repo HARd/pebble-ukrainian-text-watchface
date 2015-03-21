@@ -49,5 +49,5 @@ static const char *const MINUTES_NOMINATIVE_TENS[] = {
     "п’ятдесят",
 };
 
-void append_string(char *output, const char *string, bool add_space);
-void say_formal(char* output, int hours, int minutes);
+void append_string(char* output, const char* string, bool add_space);
+void say_formal(char* buffer, const size_t buffer_size, int hours, int minutes);
