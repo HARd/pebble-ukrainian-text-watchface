@@ -1,7 +1,7 @@
 {
   "uuid": "bfb1761b-5ee0-4263-affe-34189673f8ec",
-  "shortName": "Ukrainian Watchface",
-  "longName": "Ukrainian Text Watchface",
+  "shortName": "Ukrainian Text",
+  "longName": "Ukrainian Text",
   "companyName": "Alexander Shchapov",
   "versionCode": 1,
   "versionLabel": "1.1",
@@ -20,13 +20,23 @@
     "media": [
       {
         "type": "font",
-        "name": "FONT_OPEN_SANS_BOLD_36",
+        "name": "FONT_OPEN_SANS_BOLD_40",
         "file": "fonts/open-sans-bold-cyrillic-subset.ttf"
       },
       {
         "type": "font",
-        "name": "FONT_OPEN_SANS_REGULAR_32",
-        "file": "fonts/open-sans-regular-cyrillic-subset.ttf"
+        "name": "FONT_OPEN_SANS_BOLD_25",
+        "file": "fonts/open-sans-bold-cyrillic-subset.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_OPEN_SANS_BOLD_22",
+        "file": "fonts/open-sans-bold-cyrillic-subset.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_OPEN_SANS_REGULAR_25",
+        "file": "fonts/open-sans-light-cyrillic-subset.ttf"
       }
     ]
   }

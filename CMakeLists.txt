@@ -10,4 +10,4 @@ set(SOURCE_FILES
 
 include_directories("/Users/darednaxella/pebble-dev/PebbleSDK-3.0-dp4/Pebble/aplite/include")
 
-add_executable(Ukrainian_Text_Watchface ${SOURCE_FILES} src/text_formal.h src/text_formal.c)
+add_executable(Ukrainian_Text_Watchface ${SOURCE_FILES} src/text_formal.h src/text_formal.c src/main.h src/main.h)

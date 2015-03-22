@@ -20,24 +20,24 @@ static const char *const MINUTES_NOMINATIVE_ONES[] = {
     "дві",
     "три",
     "чотири",
-    "п’ять",
+    "п'ять",
     "шість",
     "сім",
     "вісім",
-    "дев’ять"
+    "дев'ять"
 };
 
 static const char *const MINUTES_NOMINATIVE_TEENS[] = {
     "десять",
-    "одинадцять",
-    "дванадцять",
-    "тринадцять",
-    "чотирнадцять",
-    "п’ятнадцять",
-    "шістнадцять",
-    "сімнадцять",
-    "вісімнадцять",
-    "дев’ятнадцять",
+    "оди надцять",
+    "два надцять",
+    "три надцять",
+    "чотир надцять",
+    "п'ят надцять",
+    "шіст надцять",
+    "сім надцять",
+    "вісім надцять",
+    "дев'ят надцять",
 };
 
 static const char *const MINUTES_NOMINATIVE_TENS[] = {
@@ -46,8 +46,8 @@ static const char *const MINUTES_NOMINATIVE_TENS[] = {
     "двадцять",
     "тридцять",
     "сорок",
-    "п’ятдесят",
+    "п'ятдесят",
 };
 
 void append_string(char* output, const char* string, bool add_space);
-void say_formal(char* buffer, const size_t buffer_size, int hours, int minutes);
+void say_formal(char* hours_buffer, char* minutes_buffer, int hours, int minutes);
