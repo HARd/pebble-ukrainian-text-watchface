@@ -1,43 +1,43 @@
 {
-  "uuid": "bfb1761b-5ee0-4263-affe-34189673f8ec",
-  "shortName": "Ukrainian Text",
-  "longName": "Ukrainian Text",
-  "companyName": "Alexander Shchapov",
-  "versionCode": 1,
-  "versionLabel": "1.1",
-  "sdkVersion": "3",
-  "targetPlatforms": [
-    "aplite",
-    "basalt"
-  ],
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": [
-      {
-        "type": "font",
-        "name": "FONT_OPEN_SANS_BOLD_40",
-        "file": "fonts/open-sans-bold-cyrillic-subset.ttf"
-      },
-      {
-        "type": "font",
-        "name": "FONT_OPEN_SANS_BOLD_25",
-        "file": "fonts/open-sans-bold-cyrillic-subset.ttf"
-      },
-      {
-        "type": "font",
-        "name": "FONT_OPEN_SANS_BOLD_22",
-        "file": "fonts/open-sans-bold-cyrillic-subset.ttf"
-      },
-      {
-        "type": "font",
-        "name": "FONT_OPEN_SANS_REGULAR_25",
-        "file": "fonts/open-sans-light-cyrillic-subset.ttf"
-      }
-    ]
-  }
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Vitaliy Tarnavskiy",
+    "longName": "Ukrainian Text",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/open-sans-light-cyrillic-subset.ttf",
+                "name": "FONT_OPEN_SANS_REGULAR_25",
+                "type": "font"
+            },
+            {
+                "file": "fonts/open-sans-bold-cyrillic-subset.ttf",
+                "name": "FONT_OPEN_SANS_BOLD_22",
+                "type": "font"
+            },
+            {
+                "file": "fonts/open-sans-bold-cyrillic-subset.ttf",
+                "name": "FONT_OPEN_SANS_BOLD_25",
+                "type": "font"
+            },
+            {
+                "file": "fonts/open-sans-bold-cyrillic-subset.ttf",
+                "name": "FONT_OPEN_SANS_BOLD_40",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Ukrainian Text",
+    "uuid": "bfb1761b-5ee0-4263-affe-34189673f8ec",
+    "versionCode": 1,
+    "versionLabel": "1.1",
+    "watchapp": {
+        "watchface": true
+    }
 }
