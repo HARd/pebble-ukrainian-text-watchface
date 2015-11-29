@@ -66,16 +66,16 @@ static void remove_layers() {
 
 static void load_fonts() {
   time_font_bold_40 = fonts_load_custom_font(
-      resource_get_handle(RESOURCE_ID_FONT_OPEN_SANS_BOLD_40)
+      resource_get_handle(RESOURCE_ID_UK_FONT_40)
   );
   time_font_bold_25 = fonts_load_custom_font(
-      resource_get_handle(RESOURCE_ID_FONT_OPEN_SANS_BOLD_25)
+      resource_get_handle(RESOURCE_ID_UK_FONT_24)
   );
   time_font_bold_22 = fonts_load_custom_font(
-      resource_get_handle(RESOURCE_ID_FONT_OPEN_SANS_BOLD_22)
+      resource_get_handle(RESOURCE_ID_UK_FONT_22)
   );
   time_font_regular = fonts_load_custom_font(
-      resource_get_handle(RESOURCE_ID_FONT_OPEN_SANS_REGULAR_25)
+      resource_get_handle(RESOURCE_ID_UK_FONT_21)
   );
 }
 
